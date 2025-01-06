@@ -6,6 +6,8 @@
     <title>Portfolio Website</title>
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+
  </head> 
  <body>
     <nav>
@@ -20,7 +22,9 @@
         </ul>
         <i class='bx bx-menu-alt-right' id="menu"></i>
 
-        <a href=""#contact class="btn">Contact Me</a>
+        <a href="mailto:wachirakibe6@gmail.com?subject=Inquiry%20from%20Portfolio%20Website&body=Hi%20Caldwell,%0D%0A%0D%0AI%20hope%20this%20email%20finds%20you%20well.%20I%20would%20like%20to%20discuss%20[insert%20topic%20here].%20Looking%20forward%20to%20hearing%20from%20you!%0D%0A%0D%0ARegards,%0D%0A[Your%20Name]" class="btn">Contact Me</a>
+
+
     </nav>
 
     <section id="home">
@@ -37,13 +41,9 @@
             </p>
         </div>
 
-        <div class="btn-box">
-            <div class="btn">Hire</div>
-            <div class="btn">Contact</div>
-        </div>
        
     </section>
-    <script src="script.js"></script>
+
     
 
     <section id ="about">
@@ -51,8 +51,7 @@
 
             <div class ="about-info">x
             <h1><span>About Me</span></h1>
-            <p>I am Caldwell Kibe, a passionate Computer Science student at Strathmore University, specializing in Cybersecurity. With a strong foundation in programming and a drive to solve complex problems, I aim to create innovative solutions that make a positive impact.
-                Outside of work, I enjoy [personal hobbies/interests, e.g., exploring new technologies, baking brownies, or going to the gym].
+            <p>I am Caldwell Kibe, a passionate Computer Science student at Strathmore University, with a keen interest in Cybersecurity and AI. With a strong foundation in programming and a drive to solve complex problems, I aim to create innovative solutions that make a positive impact.
                 Feel free to explore my projects and reach out for collaboration or professional opportunities.</p>
             </div>
 
@@ -114,7 +113,7 @@
             </div>
     
             <!-- Project 2: Bouncing Ball Game -->
-            <div class="box" data-category="ai">
+            <div class="box" data-category="#">
                 <h1><span>Bouncing Ball Game</span></h1>
                 <p>
                     A Python game built with Pygame simulating a bouncing ball with collision detection and background color transitions.
@@ -150,8 +149,70 @@
             </div>
         </div>
     </section>
+
+    <section id="contact">
+        <h1 class="header"><span>Contact</span></h1>
+        <form action="https://formspree.io/f/xzzzkkyn" method="POST">
+            <div class ="input-box">
+                <span>Full Name</span>
+                <input type="text" name="name" placeholder="Enter your full name" required>
+            </div>
+
+            <div class ="input-box">
+                <span>Your Email</span>
+                <input type="text" name="_replyto" placeholder="Enter your email" required>
+            </div>
+
+            <div class ="input-box">
+                <span>Your Message</span>
+                <input type="text" name="message" placeholder="Enter your message" required>
+            </div>
+
+            <div class="btn">Submit</div>
+            <script>
+               
+                document.getElementById("submit-btn").addEventListener("click", function () {
+                    document.getElementById("contact-form").submit();
+                });
+            </script>
+        </form>
+    </section>
     
-    
-    
+    <footer>
+        <div class="col-left">
+            <div class="col-box">
+                <span><i class='bx bxs-location-plus'></i></span>
+                <span>Kingston Court Kindaruma Road</span>
+            </div>
+            <div class="col-box">
+                <span><i class='bx bxs-phone' ></i></span>
+                <span>+254 742453295</span>
+            </div>
+            <div class="col-box">
+                <span><i class='bx bxs-envelope' ></i></span>
+                <span>wachirakibe6@gmail.com</span>
+            </div>
+        </div>
+        <div class="col-right">
+            <span>About My Services</span>
+            <p>I specialize in delivering innovative and secure solutions tailored to meet diverse digital needs. From building responsive and visually appealing websites to developing efficient mobile applications and crafting data-driven machine learning models, I strive to provide impactful services that align with client objectives.
+                 Let's collaborate </p>
+        </div>
+        <div class="social-icons">
+            <a href="https://instagram.com" target="_blank">
+                <i class='bx bxl-instagram-alt'></i>
+            </a>
+            <a href="https://linkedin.com" target="_blank">
+                <i class='bx bxl-linkedin'></i>
+            </a>
+            <a href="https://github.com" target="_blank">
+                <i class='bx bxl-github'></i>
+            </a>
+        </div>
+        
+            
+        </div>
+    </footer>
+    <script src="script.js"></script>
  </body>
  </html>
