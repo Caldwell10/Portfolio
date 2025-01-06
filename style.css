@@ -308,7 +308,7 @@ section{
     font-size: 0.95em;
     line-height: 1.6;
     opacity: 0.8;
-    text-align: justify;
+    text-align:center;
 }
 .image-container {
     width: 100%;
