@@ -231,13 +231,14 @@ section{
 .filter-buttons {
     display: flex;
     justify-content: center;
-    gap: 1em;
+    flex-wrap: wrap;
+    gap: 1.5em;
     margin-bottom: 2em;
     margin-top: 1em;
 }
 
 .filter-btn {
-    padding: 0.5em 1em;
+    padding: 0.7em 1.5em;
     background-color: var(--background);
     color: white;
     border: 2px solid white;
@@ -554,7 +555,18 @@ footer {
     #about .skills{
         gap: 3em;
     }
+    .filter-buttons {
+        flex-direction: column; 
+        align-items: center;
+        gap: 1em; 
+    }
 
+    .filter-btn {
+        font-size: 1em; 
+        padding: 0.5em 1em; 
+        width: 80%; 
+        text-align: center;
+    }
     #services .header{
         font-size: 3em;
     }
