@@ -513,18 +513,21 @@ footer {
 }
 @media (max-width: 768px) {
     section {
-        padding: 8% 5%; 
+        padding: 10% 5%; 
     }
     .header {
         margin-bottom: 1.5em; 
     }
-    h1, h2, h3 {
-        font-size: 1.5em; 
+    h1 {
+        font-size: 2em;
     }
-
+    h3 {
+        font-size: 1.2em;
+    }
     p {
-        font-size: 1em;
-        line-height: 1.5;
+        font-size: 0.9em;
+        line-height: 1.6;
+    }
     }
     .input-box {
         margin-bottom: 1.5em; 
@@ -542,6 +545,10 @@ footer {
     } 
     #home img{
         width: 32vw;
+    } 
+    .about-box {
+        text-align: center;
+        align-items: center;
     }
 
     #about .skills{
@@ -555,7 +562,10 @@ footer {
     #contact .header{
         font-size: 3em;
     }
-
+    .projects-container {
+        grid-template-columns: 1fr;
+        gap: 2em;
+    }
     #contact .input-box span{
         font-size: 1.2em;
     }
@@ -567,4 +577,3 @@ footer {
         gap: 5em;
         align-items: center;
     }
-}
