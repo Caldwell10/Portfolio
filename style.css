@@ -89,6 +89,7 @@ span{
 section{
     min-height: 100vh;
     padding:5% 15%;
+
 }
 #home{
     display: flex;
@@ -254,7 +255,7 @@ section{
 .projects-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr); 
-    gap: 1.5em; 
+    gap: 2em; 
     justify-items: center;
     align-items: stretch; /* Ensure boxes align properly */
 }
