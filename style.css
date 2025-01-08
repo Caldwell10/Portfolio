@@ -396,22 +396,30 @@ form input:focus{
 }
 footer {
     display: flex;
-    flex-wrap: wrap; 
-    align-items: flex-start; 
-    justify-content: space-between; 
-    padding: 2em;
-    background-color: var(--background);
-    color: white;
+    align-items: center;
+    justify-content:center; 
     gap: 2em;
+    bottom: 0;
+    padding: 5em 25%;
+    width: 100%;
+    
+   
 }
 
-.col-left,
+.col-left{
+    display:flex;
+    flex-direction: column;
+    gap: 1em;
+
+}
 .col-right {
-    flex: 1; 
     display: flex;
     flex-direction: column;
-    gap: 1.5em; 
+    gap: 1em;  
+    color : white;
+    max-width: 500px;
 }
+
 
 .col-box {
     display: flex;
