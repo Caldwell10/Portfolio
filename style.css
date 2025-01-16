@@ -255,29 +255,28 @@ section{
 
 .projects-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); 
-    gap: 1em; 
-    justify-items: center;
-    align-items: stretch; /* Ensure boxes align properly */
-    margin-top: 2em;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Flexible columns */
+    gap: 1.5em; /* Reduce spacing between projects */
+    justify-items: center; /* Center-align items */
+    align-items: stretch; /* Ensure equal height alignment */
+    margin-top: 2em; /* Add consistent spacing above */
 }
 
-
 .box {
-    border: 3px solid rgb(49, 49, 49);
+    width: 100%; /* Full width within the grid */
+    max-width: 300px; /* Restrict max width for consistency */
+    padding: 1em; /* Add consistent padding */
     border-radius: 0.5em;
+    border: 2px solid rgb(49, 49, 49);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    overflow: hidden;
-    padding: 1em; /* Padding around content */
-    color: white;
-    cursor: pointer;
-    transition: transform 0.3s ease-in-out;
-    min-height: 350px; /* Maintain consistent height */
-    max-width: 300px; /* Limit width to keep boxes small */
+    background-color: #1e1e1e; /* Ensure consistent background */
+    overflow: hidden; /* Avoid content overflow */
+    transition: transform 0.3s ease-in-out, border-color 0.3s ease-in-out;
 }
+
 
 .box:hover {
     border: 3px solid rgb(100, 100, 100);
@@ -292,10 +291,11 @@ section{
 
 .box img {
     width: 100%; 
-    height: 220px; 
+    height: auto; 
     object-fit: cover; 
     border-radius: 0.5em;
     transition: 0.3s ease-in-out;
+    margin-top: 10px;
 }
 
 .box h1 {
@@ -307,6 +307,7 @@ section{
 
 
 .box p {
+    color: white;
     font-size: 0.95em;
     line-height: 1.6;
     opacity: 0.8;
@@ -584,10 +585,8 @@ footer {
         font-size: 3em;
     }
     .projects-container {
-        display: grid;
-        grid-template-columns: repeat(2,1fr); /* Single-column layout */
-        gap: 1em; /* Reduced gap between projects */
-        justify-content: center; /* Center-align the single column */
+        grid-template-columns: 1fr; /* Single column */
+        gap: 1em; /* Reduce gaps */
     }
     #contact .input-box span{
         font-size: 1.2em;
@@ -607,13 +606,15 @@ footer {
         gap: 1em; /* Reduce spacing between buttons */
     }
     .box {
-        max-width: 100%; /* Full width of the container */
-        padding: 0.8em; /* Compact padding */
-        margin: 0 auto; /* Center-align the project box */
+        max-width: 90%; /* Reduce box width for smaller screens */
+        margin: 0 auto; /* Center align the box */
+    }
+    .filter-buttons {
+        flex-wrap: wrap; /* Wrap filter buttons */
+        justify-content: center; /* Center-align the buttons */
+        gap: 0.8em; /* Reduce gap between buttons */
     }
     .filter-btn {
-        font-size: 0.9em; /* Keep font size small */
-        padding: 0.5em 1em; /* Adjust padding for a compact look */
-        text-align: center;
-        border-radius: 0.4em;
+        font-size: 0.9em; /* Slightly smaller font */
+        padding: 0.5em 1em; /* Compact padding */
     }
