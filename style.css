@@ -256,9 +256,10 @@ section{
 .projects-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr); 
-    gap: 2em; 
+    gap: 1em; 
     justify-items: center;
     align-items: stretch; /* Ensure boxes align properly */
+    margin-top: 2em;
 }
 
 
@@ -267,16 +268,15 @@ section{
     border-radius: 0.5em;
     display: flex;
     flex-direction: column;
-    align-items: center; 
-    justify-content: space-between; 
+    align-items: center;
+    justify-content: space-between;
     overflow: hidden;
-    object-fit: cover;
-    padding: 1.5em; 
-    gap: 0.5em; 
+    padding: 1em; /* Padding around content */
     color: white;
     cursor: pointer;
-    transition: 0.3s ease-in-out;
-    min-height: 400px; 
+    transition: transform 0.3s ease-in-out;
+    min-height: 350px; /* Maintain consistent height */
+    max-width: 300px; /* Limit width to keep boxes small */
 }
 
 .box:hover {
@@ -566,11 +566,12 @@ footer {
     .filter-buttons {
         flex-direction: column; 
         align-items: center;
+        justify-content: space-around;
         gap: 1em; 
     }
 
     .filter-btn {
-        font-size: 1em; 
+        font-size: 0.9em; 
         padding: 0.5em 1em; 
         width: 80%; 
         text-align: center;
@@ -583,8 +584,10 @@ footer {
         font-size: 3em;
     }
     .projects-container {
-        grid-template-columns: 1fr;
-        gap: 2em;
+        display: grid;
+        grid-template-columns: repeat(2,1fr); /* Single-column layout */
+        gap: 1em; /* Reduced gap between projects */
+        justify-content: center; /* Center-align the single column */
     }
     #contact .input-box span{
         font-size: 1.2em;
@@ -596,4 +599,21 @@ footer {
         flex-direction: column;
         gap: 5em;
         align-items: center;
+    }
+    .filter-buttons {
+        flex-direction: row; /* Arrange buttons in a row */
+        flex-wrap: wrap; /* Allow wrapping if they overflow */
+        justify-content: center; /* Center-align the buttons */
+        gap: 1em; /* Reduce spacing between buttons */
+    }
+    .box {
+        max-width: 100%; /* Full width of the container */
+        padding: 0.8em; /* Compact padding */
+        margin: 0 auto; /* Center-align the project box */
+    }
+    .filter-btn {
+        font-size: 0.9em; /* Keep font size small */
+        padding: 0.5em 1em; /* Adjust padding for a compact look */
+        text-align: center;
+        border-radius: 0.4em;
     }
