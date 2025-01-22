@@ -314,6 +314,7 @@ section{
     text-align:center;
 }
 .image-container {
+    position: relative;
     width: 100%;
     aspect-ratio: 4 / 3; 
     display: flex;
@@ -323,6 +324,7 @@ section{
     border-radius: 0.5em;
     background-color: #1e1e1e; 
     position: relative;
+    overflow:hidden;
 }
 
 .image-container img {
@@ -340,24 +342,38 @@ section{
     opacity: 0.8; 
     transition: 0.3s ease-in-out;
 }
-.overlay-link {
+.overlay-links {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: rgba(0, 0, 0, 0.7);
-    color: white;
-    padding: 0.5em 1em;
-    border-radius: 0.5em;
-    text-decoration: none;
-    font-size: 1.2em;
-    font-weight: bold;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
+    display: none; /* Hide links initially */
+    flex-direction: column; /* Stacks links vertically */
+    align-items: center;
+    gap: 10px; /* Spacing between links */
 }
-
+/* Link appearance */
+.overlay-link {
+    color: white; /* Keeps link text visible */
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+image-container:hover .overlay-links {
+    display: flex; /* Display the links when hovered */
+   
+}
 .image-container:hover .overlay-link {
     opacity: 1; 
+   
+}
+.overlay-link:hover {
+    background-color: rgba(255, 255, 255, 0.9); /* Highlight effect on hover */
+    color: black;
 }
 
 #contact{
@@ -560,7 +576,14 @@ footer {
         text-align: center;
         align-items: center;
     }
+    .overlay-links {
+        gap: 5px; /* Reduce spacing between links */
+    }
 
+    .overlay-link {
+        padding: 6px 12px; /* Smaller padding for smaller screens */
+        font-size: 14px; /* Adjust font size for readability */
+    }
     #about .skills{
         gap: 3em;
     }
