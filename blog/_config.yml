@@ -13,9 +13,9 @@ title                    : "Caldwell Wachira | Research & Insights"
 title_separator          : " | "  # Separator for metadata
 name                     : &name "Caldwell Wachira"
 description              : &description "A space for sharing my research, analysis, and discoveries."
-url                      : "https://www.caldwellwachira.com"  # Your custom domain
+url                      : "https://blog.caldwellwachira.com"  # Your custom domain
 baseurl                  : ""  # Keep empty if hosted at root domain ("/blog" if using a subpath)
-repository               : "https://github.com/Caldwell10/Portfolio.git"  # Optional
+repository               : ""  # Optional
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
