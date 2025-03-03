@@ -12,7 +12,7 @@ I’m Caldwell Wachira, a researcher and data scientist passionate about uncover
 
 I believe in the power of data-driven decision-making and AI-driven solutions to create impact. Here, I document my research, projects, and learning experiences in data science, machine learning, and beyond.  
 
-You can view/go back to [my personal webiste](https://www.caldwellwachira.com)
+You can view/go back to [my personal website](https://www.caldwellwachira.com)
 
 ---
 ## **🔹 What You'll Find Here**  
