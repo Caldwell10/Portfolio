@@ -12,7 +12,7 @@
     "vendor/breakpoint/breakpoint",
 
     "themes",
-    "theme/{{ site.site_theme | default: 'default' }}",
+    "theme/{{ site.site_theme | default: 'dark' }}",
 
     "include/mixins",
     "vendor/susy/susy",
