@@ -29,12 +29,12 @@ You can view/go back to [my personal website](https://www.caldwellwachira.com)
   - Using AI to address societal challenges such as environmental awareness.
 
 ## **🛠️ Technical Skills**  
-  **Programming:** Python, JavaScript, PHP, Dart, Kotlin, C++, SQL  
-  **Data Visualization:** Tableau, Power BI, Matplotlib, Seaborn  
-  **Machine Learning:** TensorFlow, PyTorch, Scikit-Learn  
-  **Big Data Tools:** Spark, Hadoop  
-  **Databases:** MySQL, PostgreSQL, MongoDB  
-  **Cloud & Deployment:** Firebase, Render, Streamlit Cloud, Netlify  
+ - **Programming:** Python, JavaScript, PHP, Dart, Kotlin, C++, SQL  
+ - **Data Visualization:** Tableau, Power BI, Matplotlib, Seaborn  
+ - **Machine Learning:** TensorFlow, PyTorch, Scikit-Learn  
+ - **Big Data Tools:** Spark, Hadoop  
+ - **Databases:** MySQL, PostgreSQL, MongoDB  
+ - **Cloud & Deployment:** Firebase, Render, Streamlit Cloud, Netlify  
 
 ## **📖 Blog & Research Documentation**  
 I document my findings, insights, and experiments in AI, Data Science, and Research on my blog.  
