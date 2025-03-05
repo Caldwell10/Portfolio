@@ -6,4 +6,4 @@ tags:
   - transfer learning
   - deep learning
 ---
-**Zero Shot Learning(ZSL)** is a 
+**Coming Soon**
