@@ -7,7 +7,6 @@ tags:
   - transfer learning
   - deep learning
   - machine learning
-citation:
 ---
 Machine learning models typically rely on labeled training data to make accurate predictions. But what if an AI model could recognize or classify without ever seeing them before?
 
@@ -49,7 +48,7 @@ There are three main ways that Zero-Shot Learning is implemented in AI:
 3. **Prompt Engineering for NLP** 
 – Uses large language models (LLMs) like GPT-3/BART to classify text without explicit training.
 
-I have interacted with it during Prompt Engineeering for NLP, so thats what we'll focus on
+I have interacted with it during Prompt Engineeering for NLP, so thats what we'll focus on.
 
 
 ##  **Zero-Shot Text Classification Using Facebook's BART Model**
@@ -85,7 +84,7 @@ How it works:
 ```
 The most relevant category here is finance. While humans can easily infer this, a machine learning model relies on probability scores to make a prediction.
 
-You could print the most relevant label, and thats how you can use zero shot learning to classify text data to predefined category labels
+You could print the most relevant label, and thats how you can use zero shot learning to classify text data to predefined category labels.
 
 ```python
 sorted_results = sorted(zip(result['labels'], result['scores']), key=lambda x: x[1], reverse=True)
@@ -125,7 +124,7 @@ While Zero-Shot Learning is an incredibly powerful approach, it comes with its o
 
 ### **1. Lower Accuracy Compared to Supervised Models**
 Since ZSL models have never seen the specific categories before, their performance is often weaker compared to supervised models trained with labeled data. 
-- If the semantic relationships are weak or unclear, the model may misclassifythe data.
+- If the semantic relationships are weak or unclear, the model may misclassify the data.
 - Example: If you ask the model to classify "Quantum computing is the future." with labels like ["science", "finance", "politics"], it might struggle to assign the most accurate category.
 
 ### **2. Sensitivity to Label Choices**
