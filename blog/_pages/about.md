@@ -40,11 +40,6 @@ You can view/go back to [my personal website](https://www.caldwellwachira.com)
 I document my findings, insights, and experiments in AI, Data Science, and Research on my blog.  
 Check out my latest blog posts:  
 
-📝 [Zero Shot Learning(ZSL)]() - *Coming soon!*  
-
-[➡️ View all blog posts](/blog/)  
-
-
 Im still quite new to publishing but I am devoted to begin my journey.  **[Publications Page](/publications/)** 📚  
 
 
