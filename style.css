@@ -305,6 +305,31 @@ section{
     margin-bottom: 0.5em;
 }
 
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    justify-content: center;
+    margin: 0.8em 0;
+}
+
+.tech-tag {
+    background: linear-gradient(135deg, #6cff52, #3ec5ff);
+    color: #000;
+    font-size: 0.8em;
+    font-weight: 600;
+    padding: 0.4em 0.8em;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.tech-tag:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
 
 .box p {
     color: white;
@@ -363,7 +388,7 @@ section{
     text-align: center;
     transition: background-color 0.3s ease;
 }
-image-container:hover .overlay-links {
+.image-container:hover .overlay-links {
     display: flex; /* Display the links when hovered */
    
 }

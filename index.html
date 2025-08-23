@@ -100,59 +100,42 @@
         <div class="filter-buttons">
             <button class="filter-btn active" data-category="all">All</button>
             <button class="filter-btn" data-category="ai">AI</button>
-            <button class="filter-btn" data-category="mobile">Mobile Development</button>
+            <button class="filter-btn" data-category="web">Web Development</button>
             <button class="filter-btn" data-category="featured">Featured</button>
         </div>
     
         <div class="projects-container">
             <!-- Project 1: Fare Payment System -->
-            <div class="box" data-category="mobile featured">
+            <div class="box" data-category="featured">
                 <h1><span>Fare Payment System</span></h1>
+                <div class="tech-stack">
+                    <span class="tech-tag">Flutter</span>
+                    <span class="tech-tag">Dart</span>
+                    <span class="tech-tag">Firebase</span>
+                    <span class="tech-tag">API</span>
+                </div>
                 <p>
                     A Flutter-based FinTech solution for cashless public transport payments, integrating Firebase, Dart, and secure API handling.
                 </p>
                 <div class="image-container">
                     <img src="images/fare-payment.png" alt="Fare Payment System">
                     <div class="overlay-links">
-                        <a href="https://github.com/Caldwell10/Fare_payment_system.git" target="_blank" class="overlay-link">View on GitHub</a>
-                        <a href="https://fare-payment-system.netlify.app/" target="_blank" class="overlay-link">Live Demo</a>
+                        <a href="https://github.com/Caldwell10/Fare_payment_system.git" target="_blank" class="overlay-link">
+                            <i class='bx bxl-github'></i> View on GitHub
+                        </a>
                     </div>
                 </div>
             </div>
     
-            <!-- Project 2: Bouncing Ball Game -->
-            <div class="box" data-category="#">
-                <h1><span>Bouncing Ball Game</span></h1>
-                <p>
-                    A Python game built with Pygame simulating a bouncing ball with collision detection.
-                </p>
-                <div class="image-container">
-                    <img src="images/bouncing-ball.png" alt="Bouncing Ball Game">
-                    <div class="overlay-links">
-                        <a href="https://github.com/Caldwell10/Computer_Graphics_Groupwork.git" target="_blank" class="overlay-link">View on GitHub</a>
-                        
-                    </div>
-                </div>
-            </div>
-    
-            <!-- Project 3: Event Planning App -->
-            <div class="box" data-category="mobile">
-                <h1><span>Event Planning App</span></h1>
-                <p>
-                    An Android app built with Kotlin to manage event schedules.
-                </p>
-                <div class="image-container">
-                    <img src="images/Event-planner.png" alt="Event Planning App">
-                    <div class="overlay-links">
-                        <a href="https://github.com/Caldwell10/Event-Planning-App.git" target="_blank" class="overlay-link">View on GitHub</a>
-                        
-                    </div>
-                </div>
-            </div>
-    
-            <!-- Project 4: CVE Chatbot -->
-            <div class="box" data-category="ai featured">
+            <!-- Project 2: CVE Chatbot -->
+            <div class="box" data-category="ai featured web">
                 <h1><span>CVE Chatbot for Cybersecurity Awareness</span></h1>
+                <div class="tech-stack">
+                    <span class="tech-tag">Flask</span>
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">HTML/CSS</span>
+                    <span class="tech-tag">JavaScript</span>
+                </div>
                 <p>
                     A full-stack web application for retrieving and filtering cybersecurity vulnerability (CVE) data. 
                     Includes a Flask API backend and a modern, responsive user interface.
@@ -160,48 +143,87 @@
                 <div class="image-container">
                     <img src="images/cve-chatbot.png" alt="CVE Chatbot for Cybersecurity Awareness">
                     <div class="overlay-links">
-                        <a href="https://github.com/Caldwell10/CVE-Chatbot.git" target="_blank" class="overlay-link">View on GitHub</a>
-                        <a href="https://cve-chatbot.onrender.com" target="_blank" class="overlay-link">Live Demo</a>
+                        <a href="https://github.com/Caldwell10/CVE-Chatbot.git" target="_blank" class="overlay-link">
+                            <i class='bx bxl-github'></i> View on GitHub
+                        </a>
+                        <a href="https://cve-chatbot.onrender.com" target="_blank" class="overlay-link">
+                            <i class='bx bx-link-external'></i> Live Demo
+                        </a>
                     </div>
-          
-          
                 </div>
             </div>
-            <!-- Project 5: Breast Cancer Detection -->
+
+            <!-- Project 3: Breast Cancer Detection -->
             <div class="box" data-category="ai featured">
                 <h1><span>Breast Cancer Detector</span></h1>
+                <div class="tech-stack">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">TensorFlow</span>
+                    <span class="tech-tag">CNN</span>
+                    <span class="tech-tag">Streamlit</span>
+                </div>
                 <p>
                     A machine learning project leveraging a Convolutional Neural Network (CNN) for binary classification of breast cancer cases using medical imaging data.
                 </p>
                 <div class="image-container">
                     <img src="images/breast-cancer-detector.png" alt="Breast Cancer Detection">
                     <div class="overlay-links">
-                        <a href="https://github.com/Caldwell10/Breast_Cancer_ML.git" target="_blank" class="overlay-link">View on GitHub</a>
-                        <a href="https://breastcancerdetector.streamlit.app/" target="_blank" class="overlay-link">Live Demo</a>
+                        <a href="https://github.com/Caldwell10/Breast_Cancer_ML.git" target="_blank" class="overlay-link">
+                            <i class='bx bxl-github'></i> View on GitHub
+                        </a>
+                        <a href="https://breastcancerdetector.streamlit.app/" target="_blank" class="overlay-link">
+                            <i class='bx bx-link-external'></i> Live Demo
+                        </a>
                     </div>
                 </div>
             </div>
 
-            <!-- Project 6: Nutrition Q&A System -->
-    <div class="box" data-category="ai">
-        <h1><span>Nutrition Q&A System</span></h1>
-        <p>
-        A web-based Q&A system leveraging Hugging Face for NLP embeddings, FAISS for similarity search, 
-        and Flask for the backend. It allows users to query nutritional information efficiently.
-        </p>
-       <div class="image-container">
-            <img src="images/Nutrition.png" alt="Nutrition Q&A System">
-            <div class="overlay-links">
-                <a href="https://github.com/Caldwell10/Nutrition-QA-System.git" target="_blank" class="overlay-link">View on GitHub</a>
-                <a href="https://nutrition-qanda.onrender.com/" target="_blank" class="overlay-link">Live Demo</a>
+            <!-- Project 4: Nutrition Q&A System -->
+            <div class="box" data-category="ai web">
+                <h1><span>Nutrition Q&A System</span></h1>
+                <div class="tech-stack">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">Hugging Face</span>
+                    <span class="tech-tag">FAISS</span>
+                    <span class="tech-tag">Flask</span>
+                </div>
+                <p>
+                    A web-based Q&A system leveraging Hugging Face for NLP embeddings, FAISS for similarity search, 
+                    and Flask for the backend. It allows users to query nutritional information efficiently.
+                </p>
+                <div class="image-container">
+                    <img src="images/Nutrition.png" alt="Nutrition Q&A System">
+                    <div class="overlay-links">
+                        <a href="https://github.com/Caldwell10/Nutrition-QA-System.git" target="_blank" class="overlay-link">
+                            <i class='bx bxl-github'></i> View on GitHub
+                        </a>
+                        <a href="https://nutrition-qanda.onrender.com/" target="_blank" class="overlay-link">
+                            <i class='bx bx-link-external'></i> Live Demo
+                        </a>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-</div>
 
-
-            
-            
+            <!-- Project 5: Bouncing Ball Game -->
+            <div class="box" data-category="">
+                <h1><span>Bouncing Ball Game</span></h1>
+                <div class="tech-stack">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">Pygame</span>
+                    <span class="tech-tag">Computer Graphics</span>
+                </div>
+                <p>
+                    A Python game built with Pygame simulating a bouncing ball with collision detection and physics simulation.
+                </p>
+                <div class="image-container">
+                    <img src="images/bouncing-ball.png" alt="Bouncing Ball Game">
+                    <div class="overlay-links">
+                        <a href="https://github.com/Caldwell10/Computer_Graphics_Groupwork.git" target="_blank" class="overlay-link">
+                            <i class='bx bxl-github'></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
