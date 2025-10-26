@@ -1,206 +1,112 @@
- <!DOCTYPE html>
- <html lang="en">
- <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Portfolio Website</title>
     <link rel="stylesheet" href="style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> 
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
-
- </head> 
- <body>
+</head>
+<body>
     <nav>
         <a href = "#" class="logo"><span>CWK</span></a>
-
-        <ul class="links"> 
-            <a href="https://www.caldwellwachira.com#home">Home</a>
-            <a href="https://www.caldwellwachira.com#about">About</a>
-            <a href="https://www.caldwellwachira.com#projects">Projects</a>
-            <a href="https://www.caldwellwachira.com#contact">Contact</a>
-            <a href="https://blog.caldwellwachira.com">Blog</a>  
+        <ul class="links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+            <a href="https://blog.caldwellwachira.com", target="_blank" rel="noopener">Blog</a>
         </ul>
-        
         <i class='bx bx-menu-alt-right' id="menu"></i>
-
         <a href="mailto:wachirakibe6@gmail.com?subject=Inquiry%20from%20Portfolio%20Website&body=Hi%20Caldwell,%0D%0A%0D%0AI%20hope%20this%20email%20finds%20you%20well.%20I%20would%20like%20to%20discuss%20[insert%20topic%20here].%20Looking%20forward%20to%20hearing%20from%20you!%0D%0A%0D%0ARegards,%0D%0A[Your%20Name]" class="btn">Contact Me</a>
-
-
     </nav>
 
     <section id="home">
         <img src="images/IMG_2362.jpg" alt="">
-
         <div class="info-box">
             <h1><span>Hello, I'm Caldwell Kibe</span></h1>
-            <h3><span>AI & Full-Stack Developer</span> based in Nairobi, Kenya</h3>
+            <h3><span>Backend & Distributed Systems Engineer</span> based in Nairobi, Kenya</h3>
             <p>
-              I'm passionate about building intelligent systems and seamless user experiences. With expertise spanning machine learning, web applications, and mobile development, I create innovative solutions that bridge cutting-edge technology with real-world impact.
+                I build reliable and scalable backend systems using modern frameworks and cloud infrastructure.
+                My work focuses on API design, database architecture, and distributed services powered by FastAPI, PostgreSQL, Docker, and AWS.
+                I’m passionate about creating secure, efficient, and maintainable systems that support real-world applications at scale.
             </p>
         </div>
-
-       
     </section>
-
-    
 
     <section id ="about">
         <div class ="about-box">
-
             <div class ="about-info">
-            <h1><span>About Me</span></h1>
-            <p>I'm a passionate Computer Science student at Strathmore University, specializing in AI and full-stack development. With hands-on experience in machine learning, web applications, and mobile development, I create innovative solutions that bridge the gap between cutting-edge technology and real-world impact. My expertise spans from building intelligent systems to crafting seamless user experiences.</p>
+                <h1><span>About Me</span></h1>
+                <p>
+                    I'm a backend engineer focused on building and maintaining resilient APIs and services. 
+                    I design database-first systems with FastAPI, SQLAlchemy/Alembic, and PostgreSQL, containerized with Docker and deployed on AWS. 
+                    I care about correctness, security, and maintainability—using tests (Pytest), migrations, and clean interfaces to support real-world apps at scale.
+                </p>
             </div>
-
             <h2><span>Technical Skills</span></h2>
             <div class="skills-horizontal">
                 <div class="skill-items">
                     <span class="skill-item"><i class='bx bxs-chevron-right'></i>Python</span>
-                    <span class="skill-item"><i class='bx bxs-chevron-right'></i>JavaScript</span>
-                    <span class="skill-item"><i class='bx bxs-chevron-right'></i>React</span>
-                    <span class="skill-item"><i class='bx bxs-chevron-right'></i>Flask</span>
-                    <span class="skill-item"><i class='bx bxs-chevron-right'></i>Flutter</span>
-                    <span class="skill-item"><i class='bx bxs-chevron-right'></i>Dart</span>
-                    <span class="skill-item"><i class='bx bxs-chevron-right'></i>TensorFlow</span>
-                    <span class="skill-item"><i class='bx bxs-chevron-right'></i>AWS</span>
+                    <span class="skill-item"><i class='bx bxs-chevron-right'></i>FastAPI</span>
+                    <span class="skill-item"><i class='bx bxs-chevron-right'></i>SQLAlchemy</span>
+                    <span class="skill-item"><i class='bx bxs-chevron-right'></i>PostgreSQL</span>
                     <span class="skill-item"><i class='bx bxs-chevron-right'></i>Docker</span>
-                    <span class="skill-item"><i class='bx bxs-chevron-right'></i>Firebase</span>
+                    <span class="skill-item"><i class='bx bxs-chevron-right'></i>Redis</span>
+                    <span class="skill-item"><i class='bx bxs-chevron-right'></i>Pytest</span>
                     <span class="skill-item"><i class='bx bxs-chevron-right'></i>Git</span>
-                    <span class="skill-item"><i class='bx bxs-chevron-right'></i>Kotlin</span>
                     <span class="skill-item"><i class='bx bxs-chevron-right'></i>Linux</span>
-                    <span class="skill-item"><i class='bx bxs-chevron-right'></i>PHP</span>
+                    <span class="skill-item"><i class='bx bxs-chevron-right'></i>AWS</span>
                     <span class="skill-item"><i class='bx bxs-chevron-right'></i>CI/CD</span>
                 </div>
             </div>
-            
         </div>
-
-        
     </section>
 
     <section id="projects">
         <h1 class="header"><span>Projects</span></h1>
-    
-        <!-- Filter Buttons -->
         <div class="filter-buttons">
             <button class="filter-btn active" data-category="all">All</button>
-            <button class="filter-btn" data-category="ai">AI</button>
-            <button class="filter-btn" data-category="web">Web Development</button>
+            <button class="filter-btn" data-category="backend">Backend</button>
+            <button class="filter-btn" data-category="systems">Systems</button>
+            <button class="filter-btn" data-category="ai-ml">AI/ML</button>
             <button class="filter-btn" data-category="featured">Featured</button>
         </div>
-    
         <div class="projects-container">
-            <!-- Project 1: Fare Payment System -->
-            <div class="box" data-category="featured">
-                <h1><span>Fare Payment System</span></h1>
+            <div class="box" data-category="backend featured">
+                <h1><span>Event Ticketing API</span></h1>
                 <div class="tech-stack">
-                    <span class="tech-tag">Flutter</span>
-                    <span class="tech-tag">Dart</span>
-                    <span class="tech-tag">Firebase</span>
-                    <span class="tech-tag">API</span>
+                    <span class="tech-tag">FastAPI</span>
+                    <span class="tech-tag">PostgreSQL</span>
+                    <span class="tech-tag">SQLAlchemy</span>
+                    <span class="tech-tag">Alembic</span>
+                    <span class="tech-tag">Docker</span>
                 </div>
                 <p>
-                    A Flutter-based FinTech solution for cashless public transport payments, integrating Firebase, Dart, and secure API handling.
+                    A backend service for event ticket reservations and secure payments. Implements race-safe seat locking,
+                    authentication, and transaction rollback using PostgreSQL and FastAPI with clean migrations and tests.
                 </p>
                 <div class="image-container">
-                    <img src="images/fare-payment.png" alt="Fare Payment System">
+                    <img src="images/ticketing-api.png" alt="Event Ticketing API">
                     <div class="overlay-links">
-                        <a href="https://github.com/Caldwell10/Fare_payment_system.git" target="_blank" class="overlay-link">
+                        <a href="https://github.com/Caldwell10/Event-Ticketing-API.git" target="_blank" class="overlay-link">
                             <i class='bx bxl-github'></i> View on GitHub
-                        </a>
-                    </div>
-                </div>
-            </div>
-    
-            <!-- Project 2: CVE Chatbot -->
-            <div class="box" data-category="ai featured web">
-                <h1><span>CVE Chatbot for Cybersecurity Awareness</span></h1>
-                <div class="tech-stack">
-                    <span class="tech-tag">Flask</span>
-                    <span class="tech-tag">Python</span>
-                    <span class="tech-tag">HTML/CSS</span>
-                    <span class="tech-tag">JavaScript</span>
-                </div>
-                <p>
-                    A full-stack web application for retrieving and filtering cybersecurity vulnerability (CVE) data. 
-                    Includes a Flask API backend and a modern, responsive user interface.
-                </p>
-                <div class="image-container">
-                    <img src="images/cve-chatbot.png" alt="CVE Chatbot for Cybersecurity Awareness">
-                    <div class="overlay-links">
-                        <a href="https://github.com/Caldwell10/CVE-Chatbot.git" target="_blank" class="overlay-link">
-                            <i class='bx bxl-github'></i> View on GitHub
-                        </a>
-                        <a href="https://cve-chatbot.onrender.com" target="_blank" class="overlay-link">
-                            <i class='bx bx-link-external'></i> Live Demo
                         </a>
                     </div>
                 </div>
             </div>
 
-            <!-- Project 3: Breast Cancer Detection -->
-            <div class="box" data-category="ai featured">
-                <h1><span>Breast Cancer Detector</span></h1>
-                <div class="tech-stack">
-                    <span class="tech-tag">Python</span>
-                    <span class="tech-tag">TensorFlow</span>
-                    <span class="tech-tag">CNN</span>
-                    <span class="tech-tag">Streamlit</span>
-                </div>
-                <p>
-                    A machine learning project leveraging a Convolutional Neural Network (CNN) for binary classification of breast cancer cases using medical imaging data.
-                </p>
-                <div class="image-container">
-                    <img src="images/breast-cancer-detector.png" alt="Breast Cancer Detection">
-                    <div class="overlay-links">
-                        <a href="https://github.com/Caldwell10/Breast_Cancer_ML.git" target="_blank" class="overlay-link">
-                            <i class='bx bxl-github'></i> View on GitHub
-                        </a>
-                        <a href="https://breastcancerdetector.streamlit.app/" target="_blank" class="overlay-link">
-                            <i class='bx bx-link-external'></i> Live Demo
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Project 4: Nutrition Q&A System -->
-            <div class="box" data-category="ai web">
-                <h1><span>Nutrition Q&A System</span></h1>
-                <div class="tech-stack">
-                    <span class="tech-tag">Python</span>
-                    <span class="tech-tag">Hugging Face</span>
-                    <span class="tech-tag">FAISS</span>
-                    <span class="tech-tag">Flask</span>
-                </div>
-                <p>
-                    A web-based Q&A system leveraging Hugging Face for NLP embeddings, FAISS for similarity search, 
-                    and Flask for the backend. It allows users to query nutritional information efficiently.
-                </p>
-                <div class="image-container">
-                    <img src="images/Nutrition.png" alt="Nutrition Q&A System">
-                    <div class="overlay-links">
-                        <a href="https://github.com/Caldwell10/Nutrition-QA-System.git" target="_blank" class="overlay-link">
-                            <i class='bx bxl-github'></i> View on GitHub
-                        </a>
-                        <a href="https://nutrition-qanda.onrender.com/" target="_blank" class="overlay-link">
-                            <i class='bx bx-link-external'></i> Live Demo
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Project 5: Customizable Load Balancer -->
-            <div class="box" data-category="featured web">
+            <div class="box" data-category="systems featured">
                 <h1><span>Customizable Load Balancer</span></h1>
                 <div class="tech-stack">
                     <span class="tech-tag">Python</span>
-                    <span class="tech-tag">Flask</span>
                     <span class="tech-tag">Docker</span>
-                    <span class="tech-tag">Consistent Hashing</span>
                     <span class="tech-tag">Distributed Systems</span>
                 </div>
                 <p>
-                    A distributed systems load balancer implementing consistent hashing with virtual servers, automatic failure detection, and dynamic scaling. Features Docker containerization and comprehensive performance analysis.
+                    A distributed backend service implementing consistent hashing with automatic failover,
+                    dynamic node registration, and health checks for fault-tolerant routing.
                 </p>
                 <div class="image-container">
                     <img src="images/load-balancer.png" alt="Customizable Load Balancer">
@@ -212,22 +118,20 @@
                 </div>
             </div>
 
-            <!-- Project 6: AI Vision Pro -->
-            <div class="box" data-category="ai web featured">
-                <h1><span>AI Vision Pro - Serverless Image Analysis Platform</span></h1>
+            <div class="box" data-category="backend featured">
+                <h1><span>Serverless Image Analysis Pipeline</span></h1>
                 <div class="tech-stack">
-                    <span class="tech-tag">React</span>
                     <span class="tech-tag">AWS Lambda</span>
                     <span class="tech-tag">S3</span>
                     <span class="tech-tag">DynamoDB</span>
                     <span class="tech-tag">Rekognition</span>
-                    <span class="tech-tag">Amplify</span>
                 </div>
                 <p>
-                    A production-ready full-stack serverless application with drag & drop image upload and real-time AI object detection. Features enterprise-grade AWS architecture with auto-scaling, processing 10+ images simultaneously with 90.6% detection accuracy across 25+ object categories.
+                    An event-driven backend built on AWS to process and analyze images in real time.
+                    Uses Lambda functions for compute, S3 for storage, and DynamoDB for metadata persistence.
                 </p>
                 <div class="image-container">
-                    <img src="images/ai-vision-pro.png" alt="AI Vision Pro - Serverless Image Analysis Platform">
+                    <img src="images/ai-vision-pro.png" alt="Serverless Image Analysis Pipeline">
                     <div class="overlay-links">
                         <a href="https://github.com/Caldwell10/aws-ai-image-processor.git" target="_blank" class="overlay-link">
                             <i class='bx bxl-github'></i> View on GitHub
@@ -239,66 +143,17 @@
                 </div>
             </div>
 
-            <!-- Project 7: Jiji Safi IoT Air Quality Monitor -->
-            <div class="box" data-category="web">
-                <h1><span>Jiji Safi - IoT Air Quality Monitoring Dashboard</span></h1>
-                <div class="tech-stack">
-                    <span class="tech-tag">Flutter</span>
-                    <span class="tech-tag">Dart</span>
-                    <span class="tech-tag">MQTT</span>
-                    <span class="tech-tag">Firebase</span>
-                    <span class="tech-tag">IoT</span>
-                </div>
-                <p>
-                    A real-time IoT air quality monitoring system designed for joggers and outdoor enthusiasts. Features live sensor data streaming via MQTT, displaying temperature, humidity, CO2 levels, and air quality metrics with health alerts for unsafe conditions.
-                </p>
-                <div class="image-container">
-                    <img src="images/jiji-safi-dashboard.png" alt="Jiji Safi - IoT Air Quality Monitoring Dashboard">
-                    <div class="overlay-links">
-                        <a href="https://github.com/Caldwell10/Air-Quality-Monitoring-Dashboard.git" target="_blank" class="overlay-link">
-                            <i class='bx bxl-github'></i> View on GitHub
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Project 8: EEG Seizure Prediction -->
-            <div class="box" data-category="ai featured">
-                <h1><span>EEG Seizure Prediction using Machine Learning</span></h1>
-                <div class="tech-stack">
-                    <span class="tech-tag">Python</span>
-                    <span class="tech-tag">Machine Learning</span>
-                    <span class="tech-tag">Scikit-learn</span>
-                    <span class="tech-tag">Random Forest</span>
-                    <span class="tech-tag">KNN</span>
-                    <span class="tech-tag">Signal Processing</span>
-                </div>
-                <p>
-                    Machine learning analysis for EEG-based seizure prediction. Compared 4 models with KNN achieving best performance (91% accuracy, 0.96 AUC) followed by Random Forest (90% accuracy). Includes comprehensive signal analysis and model evaluation metrics.
-                </p>
-                <div class="image-container">
-                    <img src="images/eeg-seizure-prediction.png" alt="EEG Seizure Prediction using Machine Learning">
-                    <div class="overlay-links">
-                        <a href="https://github.com/Caldwell10/Seizure-Prediction-using-EEG-Signals.git" target="_blank" class="overlay-link">
-                            <i class='bx bxl-github'></i> View on GitHub
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Project 9: Multi-Agent Research Tool -->
-            <div class="box" data-category="ai web featured">
+            <div class="box" data-category="backend systems">
                 <h1><span>Multi-Agent Research Tool</span></h1>
                 <div class="tech-stack">
-                    <span class="tech-tag">React</span>
-                    <span class="tech-tag">TypeScript</span>
                     <span class="tech-tag">FastAPI</span>
                     <span class="tech-tag">WebSockets</span>
                     <span class="tech-tag">LangChain</span>
-                    <span class="tech-tag">Multi-Agent AI</span>
+                    <span class="tech-tag">React</span>
                 </div>
                 <p>
-                    Advanced full-stack research platform with three specialized AI agents (Researcher, Analyzer, Reporter) for automated ArXiv paper analysis. Features real-time WebSocket progress tracking, interactive visualizations, PWA capabilities, and comprehensive export options.
+                    A full-stack platform powered by a FastAPI backend with WebSocket communication for real-time task execution.
+                    Supports multiple AI agents collaborating through a shared backend service.
                 </p>
                 <div class="image-container">
                     <img src="images/multi-agent-research-tool.png" alt="Multi-Agent Research Tool">
@@ -313,21 +168,71 @@
                 </div>
             </div>
 
-            <!-- Project 10: Bouncing Ball Game -->
-            <div class="box" data-category="web">
-                <h1><span>Bouncing Ball Game</span></h1>
+            <div class="box" data-category="backend ai-ml">
+                <h1><span>CVE Chatbot API</span></h1>
                 <div class="tech-stack">
+                    <span class="tech-tag">Flask</span>
                     <span class="tech-tag">Python</span>
-                    <span class="tech-tag">Pygame</span>
-                    <span class="tech-tag">Computer Graphics</span>
+                    <span class="tech-tag">REST API</span>
                 </div>
                 <p>
-                    A Python game built with Pygame simulating a bouncing ball with collision detection and physics simulation.
+                    A Flask backend for querying and serving cybersecurity vulnerability data from the CVE database.
+                    Handles filtering, API responses, and integrates with a lightweight front-end for visualization.
                 </p>
                 <div class="image-container">
-                    <img src="images/bouncing-ball.png" alt="Bouncing Ball Game">
+                    <img src="images/cve-chatbot.png" alt="CVE Chatbot API">
                     <div class="overlay-links">
-                        <a href="https://github.com/Caldwell10/Computer_Graphics_Groupwork.git" target="_blank" class="overlay-link">
+                        <a href="https://github.com/Caldwell10/CVE-Chatbot.git" target="_blank" class="overlay-link">
+                            <i class='bx bxl-github'></i> View on GitHub
+                        </a>
+                        <a href="https://cve-chatbot.onrender.com" target="_blank" class="overlay-link">
+                            <i class='bx bx-link-external'></i> Live Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box" data-category="backend ai-ml">
+                <h1><span>Nutrition Q&A System</span></h1>
+                <div class="tech-stack">
+                    <span class="tech-tag">Flask</span>
+                    <span class="tech-tag">FAISS</span>
+                    <span class="tech-tag">Hugging Face</span>
+                    <span class="tech-tag">Python</span>
+                </div>
+                <p>
+                    A backend API for answering nutrition-related questions using embeddings and vector similarity search.
+                    Built with Flask, FAISS, and Hugging Face for efficient information retrieval.
+                </p>
+                <div class="image-container">
+                    <img src="images/Nutrition.png" alt="Nutrition Q&A System">
+                    <div class="overlay-links">
+                        <a href="https://github.com/Caldwell10/Nutrition-QA-System.git" target="_blank" class="overlay-link">
+                            <i class='bx bxl-github'></i> View on GitHub
+                        </a>
+                        <a href="https://nutrition-qanda.onrender.com/" target="_blank" class="overlay-link">
+                            <i class='bx bx-link-external'></i> Live Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box" data-category="backend systems">
+                <h1><span>Jiji Safi — IoT Air Quality Monitor</span></h1>
+                <div class="tech-stack">
+                    <span class="tech-tag">MQTT</span>
+                    <span class="tech-tag">Firebase</span>
+                    <span class="tech-tag">Dart</span>
+                    <span class="tech-tag">IoT</span>
+                </div>
+                <p>
+                    IoT backend infrastructure for real-time air quality data ingestion using MQTT.
+                    Includes cloud-based processing and a dashboard frontend for monitoring environmental conditions.
+                </p>
+                <div class="image-container">
+                    <img src="images/jiji-safi-dashboard.png" alt="Jiji Safi IoT Air Quality Monitor">
+                    <div class="overlay-links">
+                        <a href="https://github.com/Caldwell10/Air-Quality-Monitoring-Dashboard.git" target="_blank" class="overlay-link">
                             <i class='bx bxl-github'></i> View on GitHub
                         </a>
                     </div>
@@ -342,7 +247,6 @@
             <div class="contact-info">
                 <h2>Let's Work Together</h2>
                 <p>I'm always interested in new opportunities, challenging projects, and creative collaborations. Whether you have a project in mind or just want to connect, I'd love to hear from you.</p>
-                
                 <div class="contact-methods">
                     <div class="contact-method">
                         <i class='bx bxs-envelope'></i>
@@ -367,37 +271,31 @@
                     </div>
                 </div>
             </div>
-
             <form action="https://formspree.io/f/xzzzkkyn" method="POST" id="contact-form">
                 <input type="hidden" name="_subject" value="New Portfolio Contact">
                 <input type="hidden" name="_replyto" value="">
                 <input type="hidden" name="_next" value="https://www.caldwellwachira.com#contact">
-                
                 <div class="input-box">
                     <span>Full Name</span>
                     <input type="text" name="name" placeholder="Enter your full name" required>
                 </div>
-
                 <div class="input-box">
                     <span>Your Email</span>
                     <input type="email" name="email" placeholder="Enter your email" required>
                 </div>
-
                 <div class="input-box">
                     <span>Subject</span>
                     <input type="text" name="subject" placeholder="What's this about?" required>
                 </div>
-
                 <div class="input-box">
                     <span>Your Message</span>
                     <textarea name="message" placeholder="Tell me about your project or idea..." rows="5" required></textarea>
                 </div>
-
                 <button type="submit" class="btn submit-btn">Send Message</button>
             </form>
         </div>
     </section>
-    
+
     <footer>
         <div class="footer-content">
             <div class="footer-section">
@@ -417,7 +315,6 @@
                     </div>
                 </div>
             </div>
-            
             <div class="footer-section">
                 <h3>Connect With Me</h3>
                 <div class="social-icons">
@@ -433,11 +330,11 @@
                 </div>
             </div>
         </div>
-        
         <div class="footer-bottom">
             <p>&copy; 2024 Caldwell Wachira Kibe. All rights reserved.</p>
         </div>
     </footer>
+
     <script src="script.js"></script>
- </body>
- </html>
+</body>
+</html>
