@@ -854,7 +854,7 @@ footer {
         min-width: auto;
         flex: 0 1 auto;
     }
-}
+
 
 /* Tablet breakpoint */
 @media (max-width: 1024px) {
